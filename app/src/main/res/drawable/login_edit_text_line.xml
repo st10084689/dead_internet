@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Transparent background -->
+    <item android:drawable="@android:color/transparent" />
+
+    <!-- Your custom drawable for the line -->
+    <item android:height="3dp" android:gravity="bottom" android:bottom="-1dp" android:drawable="@drawable/login_line" />
+
+</layer-list>

@@ -1,8 +1,12 @@
 package com.harmless.deadspace.model
 
+import java.util.Date
+
 data class Users(
     val userId : String,
     val name: String,
-    val rank: Int,
-    val searching: Boolean
+    val isHost: Boolean,
+    val isWaiting:Boolean,
+    val matchId:String,
+    val date : Date
     )

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.fragment.SignInFragment">
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/login_edit_text_line"
+        android:layout_marginLeft="30dp"
+        android:hint="Email"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_marginRight="30dp"/>
+
+
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_below="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_edit_text_line"
+        android:layout_marginLeft="30dp"
+        android:hint="Password"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:inputType="textPassword"
+        android:layout_marginRight="30dp"/>
+
+    <EditText
+        android:id="@+id/confirmPasswordEditText"
+        android:layout_below="@id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_edit_text_line"
+        android:layout_marginLeft="30dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_marginRight="30dp"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/signInBtn"
+        android:layout_below="@+id/confirmPasswordEditText"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="@color/black"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/loginBtn"
+        android:layout_below="@+id/signInBtn"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/outline_sign_up"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+    </RelativeLayout>
+
+</RelativeLayout>

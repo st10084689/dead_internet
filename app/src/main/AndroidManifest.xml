@@ -16,6 +16,15 @@
         android:theme="@style/Theme.DeadSpace"
         tools:targetApi="31">
         <activity
+            android:name=".view.activity.ChatRoomActivity"
+            android:exported="false" />
+
+
+
+        <activity
+            android:name=".view.activity.AccountActivity"
+            android:exported="true" />
+        <activity
             android:name=".view.activity.MatchFindingActivity"
             android:exported="false" />
 
