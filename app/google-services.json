@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "220359486171",
+    "firebase_url": "https://dead-internet-default-rtdb.firebaseio.com",
+    "project_id": "dead-internet",
+    "storage_bucket": "dead-internet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220359486171:android:c2764bfdff7444feaafafe",
+        "android_client_info": {
+          "package_name": "com.harmless.deadspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220359486171-6mbj78vbtf5ekmkh763m9a074n68a4cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMhCydGEePLs40-OmAJVTor_RV1ZrQN34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220359486171-6mbj78vbtf5ekmkh763m9a074n68a4cf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
